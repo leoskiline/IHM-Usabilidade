@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.main{
+	max-width: 1140px;
+	margin:0 auto;
+	border: 1px solid #f9f9f9
+}
+
+section{
+	margin: 1%;
+}
+
+.w-50{
+	width: 50%;
+}
+
+.justify-content-center{
+	justify-content: center;
+}
+
+p{
+	font-family: system-ui;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+ul
+{
+	list-style-type:disc;
+	font-family: system-ui;
+	margin-left: 8%;
+}
+
+.img-usabilidade{
+	width: 335px;
+    border-radius: 400px;
+    height: 330px;
+    margin: auto 0px auto 60px;
+}
+
+.card{
+	position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.card-header{
+	padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-body{
+	    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav-center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+	border-bottom: 1px solid #03045E;
+	font-family: system-ui;
+}
+
+header{
+	padding: 10px 0;
+	background: #f7f7f7
+}
+
+.logo{
+	width: 10%;
+}
+
+.logo-img{
+    width: 100px;
+    height: 55px;
+    margin-bottom: 5px;
+}
+
+.menu{
+	padding-top: 30px;
+	width: 90%;
+	text-align: right;
+	overflow: hidden;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #03045E;
+	padding: 2px 5px 5px 5px;
+	font-weight: bold;
+	margin-right: 2px;
+	border: 2px solid #f7f7f7;
+}
+
+.menu a:hover {
+    background: #009fe3;
+    padding: 2px 5px 5px 5px;
+    border-radius: 15px;
+    color: #fefefe;
+    border: 2px solid #009fe3;
+}
+
+
+.menu .icon {
+  display: none;
+  padding: 0;
+}
+
+.menu .icon:hover{
+	border: 2px solid #f7f7f7;
+	padding: 0;
+	font-size: 18px;
+	background: #f7f7f7;
+	color: #03045e;
+}
+
+@media screen and (max-width: 700px) {
+  .menu a {display: none;}
+  .menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu.responsive {
+	  position: relative;
+	  width: 50%;
+	  margin-left: auto;
+	  margin-bottom: 2px;
+	}
+  .menu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
