@@ -8,6 +8,7 @@ html,body{
 	height: 100%;
 	overflow-y:auto;
 	overflow-x:hidden;
+	font-family: system-ui;
 }
 
 .main{
@@ -68,10 +69,11 @@ ul
 .card-header{
 	padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0,0,0,.03);
+    background-color: #009fe3;;
     border-bottom: 1px solid rgba(0,0,0,.125);
     font-family: system-ui;
-    font-weight: 600;
+    font-weight: bolder;
+	color: white;;
     font-size: 20px;
     text-align: center;
 }
@@ -91,13 +93,13 @@ ul
 	max-width: 1100px;
 	margin: 0 auto;
 	padding: 0 2%;
-	border-bottom: 1px solid #03045E;
+	border-bottom: 1px solid #ffffff;
 	font-family: system-ui;
 }
 
-header{
-	padding: 10px 0;
-	background: #f7f7f7
+header {
+    padding: 10px 0;
+    background: #009fe3;
 }
 
 .logo{
@@ -119,19 +121,19 @@ header{
 
 .menu a{
 	text-decoration: none;
-	color: #03045E;
+	color: #FFFFFF;
 	padding: 2px 5px 5px 5px;
 	font-weight: bold;
 	margin-right: 2px;
-	border: 2px solid #f7f7f7;
+	border: 2px solid #009fe3;
 }
 
 .menu a:hover {
-    background: #009fe3;
+    background: #FFFFFF;
     padding: 2px 5px 5px 5px;
     border-radius: 15px;
-    color: #fefefe;
-    border: 2px solid #009fe3;
+    color: #009fe3;
+    border: 2px solid #FFFFFF;
 }
 
 
@@ -141,11 +143,11 @@ header{
 }
 
 .menu .icon:hover{
-	border: 2px solid #f7f7f7;
+	border: 2px solid #009fe3;
 	padding: 0;
 	font-size: 18px;
-	background: #f7f7f7;
-	color: #03045e;
+	background: #009fe3;
+	color: #FFFFFF;;
 }
 
 @media screen and (max-width: 700px) {
