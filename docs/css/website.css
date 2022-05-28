@@ -47,6 +47,10 @@ section{
 	display: block;
 }
 
+.enabled{
+	right: 25px !important;
+}
+
 p{
 	text-align: justify;
 	text-justify: inter-word;
