@@ -3,11 +3,11 @@
 		<meta charset="utf-8">
 		<title>IHM - Usabilidade Infosite</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-		<link href="css/website.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="css/website.css" rel="stylesheet">
 	</head>
 	<body>
-		<div class="main">
+		<div class="main" id="main">
 			<header>
 				<div class="nav-center">
 					<div class="logo">
@@ -17,6 +17,7 @@
 						<a href="#objetivos">Objetivos</a>
 						<a href="#introducao">Introdução</a>
 						<a href="#acessibilidade">Acessibilidade</a>
+						<a href="#usabilidade">Usabilidade</a>
 						<a href="#aceitabilidade">Aceitabilidade</a>
 						<a href="#principiosdesign">Princípios de Design</a>
 						<a href="javascript:void(0);" class="icon" onclick="collapse()">
@@ -51,7 +52,12 @@
 						Introdução
 					</div>
 					<div class="card-body">
-						
+						<p>
+							O bom design não pode ser resumindo de maneira simples, assim como as atividades do designer de sistemas interativos, particularmente se ele adotar uma abordagem de design centrada no humano. Um dos pontos de vista pode ser que o objetivo do designer de sistemas interativos é produzir sistemas e produto que sejam acessíveis, usáveis, e social e economicamente aceitáveis. Outro pode ser que o objetivo do designer de sistemas interativos é produzir sistemas que possam ser aprendidos, que sejam eficazes e adaptáveis. Um terceiro ponto de vista pode ser o de que o objetivo do designer de sistemas interativos é equilibrar os de elementos PACT com respeito a um domínio. Todos esses pontos de vista são válidos. Neste capítulo exploramos essas visões complementares do bom design. Desenvolvemos, também, alguns princípios de design de alto nível que podem orientar designers e ser usados para avaliar ideias de design. Finalmente, colocamos essas ideias em prática analisando alguns exemplos de design bom e ruim, em diferentes contextos.
+						</p>
+						<p>
+							A acessibilidade diz respeito à remoção de barreiras que, de outra forma, excluíram totalmente algumas pessoas de usar o sistema. A usabilidade refere-se à qualidade da interação em termos de parâmetros como o tempo consumido na realização de tarefas, o número de erros cometidos e o tempo necessário para tornar um usuário competente. Evidentemente, um sistema pode ser avaliado como altamente usável, segundo algum critério de avaliação de usabilidade e mesmo assim fracassar e não ser adotado, ou não satisfazer às necessidades das pessoas. A aceitabilidade refere-se à adequação para o propósito no contexto de uso. Inclui também as preferências pessoais que contribuem para que um usuário ‘simpatize’ ou não com um artefato.
+						</p>
 					</div>
 				</div>
 			</section>
@@ -61,7 +67,60 @@
 						Acessibilidade
 					</div>
 					<div class="card-body">
-						
+						<p>
+							O acesso a espaços físicos para pessoas deficientes há muito tempo é um requisito ético e legal importante. E isso é cada vez mais verdadeiro, também, para os espaços de informação. Leis como Disability Discrimination Act, no Reino Unido, e a Section 508, nos Estado Unidos, agora requerem que os softwares sejam acessíveis. As Nações Unidas e o World Wide Web Consortuim (W3C) expediram declarações e diretrizes no sentido de que todos tenham acesso às informações transmitidas por meio de tecnologias de software. Com um número cada vez maior de usuários de computadores e tecnologias, os designers têm de se concentrar nas exigências que seus designs representam para a capacidade das pessoal. O designer tem que criar para idosos e crianças. Newell (1995) ressalta que os problemas que afetam pessoas comuns em ambientes extraordinários (por exemplo, sob estresse, pressão de tempo, etc.) são frequentemente semelhantes aos problemas que afetam as pessoas com deficiências em ambientes comuns.
+						</p>
+						<p>As pessoas são excluídas do acesso aos sistemas interativos por um séries de razões:</p>
+						<ul>
+							<li> Fisicamente as pessoas podem ser excluídas em decorrência da localização inadequada do equipamento ou porque dispositivos de entrada e saída exigem demais de suas habilidades. Por exemplo, um caixa eletrônico pode estar posicionado alto demais para alguém que está em uma cadeira de rodas, um mouse pode ser grande demais para a mão de uma criança ou um celular pode ser trabalhoso demais para quem tem artrite.</li>
+							<li> Conceitualmente as pessoas podem ser excluídas porque não conseguem entender instruções complicadas ou comando obscuros, ou poque não conseguem formar um modelo mental claro do sistema.</li>
+							<li> Economicamente culturais ocorrem quando os designers fazem suposições inadequadas sobre como as pessoas trabalham e organizam a vida. Por exemplo, usar uma metáfora baseada no futebol americano excluiria aqueles que não entendem o jogo.</li>
+							<li> A exclusão social pode acontecer se o equipamento não estiver disponível em hora e local adequados ou se as pessoas não forem membros de um determinado grupo social e não conseguirem entender certas normas ou mensagens sociais.</li>
+						</ul>
+						<p>Vencer essas barreiras ao acesso é uma consideração fundamental do design. Duas das principais abordagens do design visando à acessibilidade são o ‘design para todos’ e o design inclusivo. O design para todos (conhecido também como design universal) vai além do design de sistemas interativos e aplica-se a todos os empreendimentos de design. Ele se baseia em uma determinada abordagem filosófica do design condensada por uma comunidade internacional de design. O design inclusivo baseia-se em quatro premissas:</p>
+						<ul>
+							<li> Diferenças nas habilidades não constituem uma condição especial de poucos, mas uma caraterística comum do ser humano e mudamos física e intelectualmente ao longo da vida. </li>
+							<li> Se um design funciona bem para pessoas com deficiências, funciona melhor para todo mundo.</li>
+							<li> A qualquer momento em nossa vida, a autoestima, a identidade e o bem-estar são profundamente afetados pela nossa capacidade de funcionar em nosso ambiente físico, como uma sensação de conforto, independência e controle.</li>
+							<li> Usabilidade e estética são mutuamente compatíveis.</li>
+						</ul>
+						<p>O design inclusivo é uma abordagem mais pragmática segundo a qual frequentemente haverá razões (por exemplo, técnicas ou financeiras) pelas quais a inclusão total é inatingível. Benyon, Crerar e Wilkinson (2001) recomendam que seja realizada uma análise de inclusividade para garantir que a exclusão inadvertida seja minimizada e que sejam identificadas as características fixas e mutáveis dos usuários, eles apresentam uma árvore de decisão. Todos sofremos algum tipo de deficiência de tempo em tempos (por exemplo, um braço quebrado) que afeta nossa capacidade de usar sistemas interativos.</p>
+						<p>Como meio de garantir que um sistema seja acessível, um designer deve:</p>
+						<ul>
+							<li> Incluir pessoas com necessidades especiais na análise dos requisitos e nos testes dos sistemas existentes.</li>
+							<li> Considerar se novas características afetarão os usuários com necessidades especiais (positivamente ou negativamente) e anotar isso nas especificações;</li>
+							<li> Levar em consideração as diretrizes – incluir avaliações contrárias às diretrizes;</li>
+							<li> Incluir usuário com necessidades especiais nos testes de usabilidade e nos testes beta.</li>
+						</ul>
+						<p>Existe uma série de tecnologias de auxílio, como navegadores que leem páginas da Internet e ampliadores de tela que permitem às pessoas ajustar e movimentar a áreas de interesse. A entrada de voz está cada vez mais acessível, não só para entrada de texto, mas também para substituir o controle pelo mouse/teclado. Há também os filtros para teclado que compensam tremores, movimentos descontrolados e lentidão de resposta. De fato, existem muitos métodos especializados de entrada e saída para pessoas com vários tipos de deficiência. Por exemplo, Majaranta et al. (2009) descrevem um sistema para digital entradas olhando para determinadas letras.</p>
+						<p>O sistema operacional MS Windows tem a Opção de Acessibilidade (sob o Painel de Controle) que permite ajustar teclado, som, alertas visuais e legendas para sons. A exibição pode ser alterada, inclusive com ajustes para alto contraste, e as configurações do mouse podem ser ajustadas. O painel de controle de Acesso Universal do Mac oferece opções semelhantes. Um leitor de tela produz saída de voz sintetizada para o texto mostrado na tela, bem como para as teclas digitadas. Navegadores baseados em voz usam a mesma tecnologia dos softwares leitores de telas, mas seu design é feito especificamente para uso na Internet.</p>
+						<p>A acessibilidade à Web é uma área particularmente importante, já que muitos sites excluem pessoas que são perfeitamente saudáveis e capazes. A conferência W4A e o grupo SIGACCES da ACM, contém muitos documentos e discussões especializados. Bobby é uma ferramenta automatizada que verifica as páginas da Web quanto aos padrões W3C. No entanto, em um estudo de sites de universidades, Kane et al. (2007) encontraram graves problemas de acessibilidade, mostrando que ainda há um caminho a percorrer antes que essas questões sejam superadas.</p>
+						<p>Em grande parte, o design para todos é simplesmente o bom design o qual atenda uma gama mais ampla possível de habilidades humanas. Considerando as questões de acesso nos estágios precoces do processo de design, este, no geral, será melhor para todos. Stephanidis (2001) fornece uma série de pontos de vista sobre como isso pode ser alcançado, desde novas ‘arquiteturas’ para computadores que possam acomodar diferentes interfaces para diferentes pessoas, até processos que gerem requisitos melhores, incluindo a consideração de dispositivos de entrada e saída alternativos e a adoção de padrões internacionais.</p>
+					</div>
+				</div>
+			</section>
+			<section id="usabilidade">
+				<div class="card">
+					<div class="card-header">
+						Usabilidade
+					</div>
+					<div class="card-body">
+						<p>Um sistema com alto grau de usabilidade terá as seguintes características:</p>
+						<ul>
+							<li> Será eficiente no sentido de que as pessoas poderão fazer coisas mediante uma quantidade adequada de esforço;</li>
+							<li> Será eficaz no sentido de que conterá as funções e o conteúdo de informações adequadas e organizadas de forma apropriada;</li>
+							<li> Será fácil aprender como fazer as coisas e será fácil lembrar com fazê-las após algum tempo;</li>
+							<li> Será seguro de operar na variedade de contextos em que será usado;</li>
+							<li> Terá um alto grau de utilidade no sentido de que fará as coisas que as pessoas querem que sejam feitas.</li>
+						</ul>
+						<p>
+							Para alcançar a usabilidade, temos de considerar o design centrado no humano e adotar uma abordagem de design na qual a avaliação seja fundamental. Alguns dos pioneiros da usabilidade, Gould et al. (1987), desenvolveram os quiosques de mensagens para as Olimpíadas de 1984. Eles basearam sua abordagem em três princípios-chave que Gould e Lewis haviam desenvolvido nos três anos anteriores. Esses princípios eram:
+						</p>
+						<ul>
+							<li> Focar desde o início os usuários e as tarefas. Os designers devem primeiro entender quem serão os usuários, em parte estudando a natureza do trabalho que se espera realizar e em parte fazendo com que os usuários participem da equipe de design, por meio do design participativo ou como consultores.</li>
+							<li> Medição empírica. Logo no início do processo de desenvolvimento, as reações dos futuros usuário aos cenários impressos e manuais de usuários devem ser observadas e medidas. Mais tarde, eles podem inclusive usar simulações e protótipo para realizar trabalho de fato, e seu desempenho e reações devem ser observados, registrados e analisados.</li>
+							<li> Design interativo. Quando problemas são encontrados no teste de usuário, como de fato o serão devem ser resolvidos. Isso significa que o design deve ser interativo: deve haver um ciclo de design, teste/medição e redesign, repetido quantas vezes forem necessárias. Medições empíricas e design interativo são necessários porque os designers, por melhores que sejam, não conseguem acertar nas primeiras tentativas (GOULD et al., 1987, p. 758).</li>
+						</ul>
 					</div>
 				</div>
 			</section>
@@ -85,6 +144,9 @@
 					</div>
 				</div>
 			</section>
+		</div>
+		<div id="btnScrollUp" class="d-none">
+			<a href="#main" onclick="hideButton()"><i class="fa fa-arrow-circle-o-up fa-blue" aria-hidden="true"></i></a>
 		</div>
 	</body>
 	<script src="js/website.js"></script>
